@@ -33,8 +33,6 @@ We're thrilled you're here to start your Python journey with us!
 
 ## Slide 2: What We'll Master Today 🎯
 
-By the end of this workshop, you'll be able to:
-
 1. **Install Python & VS Code** - Your coding toolkit
 2. **Create virtual environments** - Keep your projects organized
 3. **Use pip for package management** - Add superpowers to your code
@@ -42,17 +40,14 @@ By the end of this workshop, you'll be able to:
 5. **Follow Python best practices** - Code like a professional
 6. **Write and run your first Python script** - Make something happen!
 
-**Bonus:** You'll leave with a complete project template! 🚀
-
 ---
 
-## Slide 3: Meet Your Instructor & PyLadies Team 👩‍💻
+## Slide 3: Meet PyLadies Team 👩‍💻
 
 ### Marlene Marchena
 
 - **Data Scientist** with expertise in Python & R
 - **Educator** passionate about making coding accessible
-- **Mission:** Prove that learning Python doesn't have to be intimidating!
 
 ### PyLadies Brussels Mission
 
@@ -61,7 +56,7 @@ By the end of this workshop, you'll be able to:
 🔗 **Stay Connected:**
 
 - Discord community for ongoing support
-- GitHub for resources and code examples
+- GitHub : https://github.com/pyladiesbrussels
 - Monthly meetups and workshops
 
 ---
@@ -69,8 +64,6 @@ By the end of this workshop, you'll be able to:
 ## Slide 4: Icebreaker Time! ❄️✨
 
 **Let's get to know each other:**
-
-Share with the group:
 
 1. **Your name** 
 2. **One thing you hope to learn today**
@@ -92,7 +85,7 @@ Share with the group:
 
 1. Download from **code.visualstudio.com**
 2. Install the **Python extension** (by Microsoft)
-3. Install **Code Runner extension** (optional but helpful)
+
 
 ### Step 3: Verify Installation
 
