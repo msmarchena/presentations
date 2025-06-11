@@ -15,9 +15,7 @@
 
 ---
 
-## Welcome to PyLadies Brussels! 💜
-
-### Bienvenue / Welcome! 🎉
+## Bienvenue / Welcome! to PyLadies Brussels! 💜 🎉
 
 We're thrilled you're here to start your Python journey with us!
 
@@ -42,16 +40,13 @@ We're thrilled you're here to start your Python journey with us!
 
 ---
 
-## Meet PyLadies Team 👩‍💻
-
-### Marlene Marchena
+## PyLadies Brussels Mission 👩‍💻
+ **Empowering women and gender minorities in Python & tech**
+ 
+### Organizer: Marlene Marchena
 
 - **Data Scientist** with expertise in Python & R
 - **Educator** passionate about making coding accessible
-
-### PyLadies Brussels Mission
-
-**Empowering women and gender minorities in Python & tech**
 
 ---
 
