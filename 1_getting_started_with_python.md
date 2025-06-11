@@ -15,11 +15,8 @@
 
 ---
 
-## PyLadies Brussels! 💜 🎉
+## PyLadies Brussels Mission  💜 🎉👩‍💻
 
-We're thrilled you're here to start your Python journey with us!
-
-### PyLadies Brussels Mission 👩‍💻
  **Empowering women and gender minorities in Python & tech**
  
 ### Organizer: Marlene Marchena
@@ -71,9 +68,6 @@ Open Terminal/Command Prompt and run:
 python --version
 # Should show: Python 3.11.x or higher
 ```
-
-**Having issues?** Raise your hand - we're here to help! 🙋‍♀️
-
 ---
 
 ## Why Virtual Environments Matter 🏠
