@@ -324,43 +324,6 @@ __pycache__/
 
 ---
 
-## Slide 14: Workshop Wrap-Up & Next Steps 🎯
-
-### You've Accomplished So Much Today! 🏆
-- ✅ Set up a complete Python development environment
-- ✅ Created and used virtual environments
-- ✅ Installed packages with pip
-- ✅ Built your first Python script
-- ✅ Learned professional best practices
-
-### Your Homework (Optional but Recommended):
-1. **Practice:** Create a new project with a virtual environment
-2. **Explore:** Try installing different packages (pandas, matplotlib, flask)
-3. **Build:** Extend today's script with new features
-4. **Connect:** Join our Discord and introduce yourself!
-
-### Resources You're Taking Home:
-- Complete project template
-- Curated list of learning resources
-- Access to our supportive community
-
----
-
-## Slide 15: Feedback & Community Photo 📸
-
-### Quick Feedback Round
-**Help us improve future workshops:**
-- What was your favorite part today?
-- What would you like to see in future sessions?
-- Any suggestions for improvement?
-
-### Let's Celebrate! 🎉
-**Group photo time!** 
-
-*Tag us on social media: @PyLadiesBrussels*
-
----
-
 ## Thank You! 💜
 
 **You've taken your first confident steps into Python programming!**
@@ -371,9 +334,3 @@ Remember: Every expert was once a beginner. You're now part of an amazing commun
 
 ---
 
-### Contact Information
-- **Instructor:** Marlene Marchena - [LinkedIn](https://www.linkedin.com/in/marlene-marchena-23109329/)
-- **PyLadies Brussels:** [Meetup Group](https://www.meetup.com/pyladies-brussels/)
-- **Global PyLadies:** [pyladies.com](https://pyladies.com)
-
-*Made with 💜 by PyLadies Brussels*
