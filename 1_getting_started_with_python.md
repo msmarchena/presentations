@@ -24,8 +24,6 @@ We're thrilled you're here to start your Python journey with us!
  
 ### Organizer: Marlene Marchena
 
-**Today's Goal:** Set up your Python development environment 
-
 ---
 
 ## What We'll Master Today 🎯
