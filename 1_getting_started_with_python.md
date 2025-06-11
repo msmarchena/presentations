@@ -6,11 +6,7 @@
 
 ## Workshop Details
 
-- **Date:** June 12, 2025 | 6:00 PM
-- **Duration:** 2 hours
-- **Location:** Interface3, Brussels
-- **Instructor:** Marlene Marchena
-- **Language:** English/French
+- **Date:** June 12, 2025
 - **Level:** Complete beginner friendly
 
 ---
