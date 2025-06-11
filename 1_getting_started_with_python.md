@@ -15,17 +15,16 @@
 
 ---
 
-## Bienvenue / Welcome! to PyLadies Brussels! 💜 🎉
+## PyLadies Brussels! 💜 🎉
 
 We're thrilled you're here to start your Python journey with us!
 
-**Today's Goal:** Set up your Python development environment like a pro
+### PyLadies Brussels Mission 👩‍💻
+ **Empowering women and gender minorities in Python & tech**
+ 
+### Organizer: Marlene Marchena
 
-**What You Need:**
-
-- Your laptop 💻
-- Curiosity and enthusiasm ✨
-- No prior experience required!
+**Today's Goal:** Set up your Python development environment 
 
 ---
 
@@ -37,16 +36,6 @@ We're thrilled you're here to start your Python journey with us!
 4. **Work with requirements.txt** - Share your setup with others
 5. **Follow Python best practices** - Code like a professional
 6. **Write and run your first Python script** - Make something happen!
-
----
-
-## PyLadies Brussels Mission 👩‍💻
- **Empowering women and gender minorities in Python & tech**
- 
-### Organizer: Marlene Marchena
-
-- **Data Scientist** with expertise in Python & R
-- **Educator** passionate about making coding accessible
 
 ---
 
