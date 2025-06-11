@@ -15,7 +15,7 @@
 
 ---
 
-## Slide 1: Welcome to PyLadies Brussels! 💜
+## Welcome to PyLadies Brussels! 💜
 
 ### Bienvenue / Welcome! 🎉
 
@@ -31,7 +31,7 @@ We're thrilled you're here to start your Python journey with us!
 
 ---
 
-## Slide 2: What We'll Master Today 🎯
+## What We'll Master Today 🎯
 
 1. **Install Python & VS Code** - Your coding toolkit
 2. **Create virtual environments** - Keep your projects organized
@@ -42,7 +42,7 @@ We're thrilled you're here to start your Python journey with us!
 
 ---
 
-## Slide 3: Meet PyLadies Team 👩‍💻
+## Meet PyLadies Team 👩‍💻
 
 ### Marlene Marchena
 
@@ -53,15 +53,9 @@ We're thrilled you're here to start your Python journey with us!
 
 **Empowering women and gender minorities in Python & tech**
 
-🔗 **Stay Connected:**
-
-- Discord community for ongoing support
-- GitHub : https://github.com/pyladiesbrussels
-- Monthly meetups and workshops
-
 ---
 
-## Slide 4: Icebreaker Time! ❄️✨
+## Icebreaker Time! ❄️✨
 
 **Let's get to know each other:**
 
@@ -73,7 +67,7 @@ We're thrilled you're here to start your Python journey with us!
 
 ---
 
-## Slide 5: Setting Up Your Python Environment 🛠️
+## Setting Up Your Python Environment 🛠️
 
 ### Step 1: Install Python
 
@@ -100,7 +94,7 @@ python --version
 
 ---
 
-## Slide 6: Why Virtual Environments Matter 🏠
+## Why Virtual Environments Matter 🏠
 
 ### The Problem Without Virtual Environments:
 
@@ -122,7 +116,7 @@ python --version
 
 ---
 
-## Slide 7: Creating Your First Virtual Environment 🌱
+## Creating Your First Virtual Environment 🌱
 
 ### Create a Project Folder
 
@@ -162,7 +156,7 @@ deactivate
 
 ---
 
-## Slide 8: Package Management with pip 📦
+## Package Management with pip 📦
 
 ### Installing Packages
 
@@ -196,7 +190,7 @@ pip show requests  # Detailed info about specific package
 
 ---
 
-## Slide 9: Hands-On: Your First Python Script! 🎉
+## Hands-On: Your First Python Script! 🎉
 
 Let's create a simple web API client:
 
@@ -242,7 +236,7 @@ python main.py
 
 ---
 
-## Slide 10: Professional Project Structure 📁
+## Project Structure 📁
 
 ### Recommended File Organization
 
@@ -280,7 +274,7 @@ __pycache__/
 
 ---
 
-## Slide 11: Best Practices Checklist ✅
+## Best Practices Checklist ✅
 
 ### For Every New Project:
 
@@ -306,7 +300,7 @@ __pycache__/
 
 ---
 
-## Slide 12: Amazing Resources to Continue Learning 📚
+## Amazing Resources to Continue Learning 📚
 
 ### Essential Reading
 
@@ -329,18 +323,17 @@ __pycache__/
 
 ---
 
-## Slide 13: Join Our Amazing Community! 🌟
+## Join Our Amazing Community! 🌟
 
 ### PyLadies Brussels
 
 **We're more than just workshops - we're a supportive community!**
 
-### How to Stay Connected:
+🔗 **Stay Connected:**
 
-- 💬 **Discord:** Get help, share projects, chat with fellow learners
-- 🐙 **GitHub:** Access all our workshop materials and examples
-- 📅 **Monthly Meetups:** Regular workshops and networking events
-- 🌐 **Global Network:** Part of the worldwide PyLadies community
+- Discord community for ongoing support
+- GitHub : https://github.com/pyladiesbrussels
+- PyLadies Brussels: https://www.meetup.com/pyladies-brussels/Monthly
 
 ### What's Next?
 
@@ -363,11 +356,6 @@ Remember: Every expert was once a beginner. You're now part of an amazing commun
 
 ---
 
-### Contact Information
-
-- **Instructor:** Marlene Marchena
-- **PyLadies Brussels:** https://www.meetup.com/pyladies-brussels/
-- **Global PyLadies:** https://pyladies.com
 
 *Made with 💜 by PyLadies Brussels*
 
