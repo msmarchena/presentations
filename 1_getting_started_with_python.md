@@ -1,6 +1,6 @@
 # Getting Started with Python 🐍
 
-**PyLadies Brussels Beginner Workshop**
+**PyLadies Brussels**
 
 ---
 
@@ -15,7 +15,7 @@
 
  **Empowering women and gender minorities in Python & tech**
  
-### Organizer: Marlene Marchena
+Organizer: Marlene Marchena
 
 ---
 
@@ -46,13 +46,14 @@
 
 ### Step 1: Install Python
 
-1. Visit **python.org** → Downloads
-2. Choose **Python 3.11+** (latest stable version)
-3. ✅ **Important:** Check "Add Python to PATH" during installation
+1. Visit https://www.python.org/ → Downloads
+2. Choose **Python 3.13+** (latest stable version) <br>
+
+✅ **Important:** Check "Add Python to PATH" during installation
 
 ### Step 2: Install VS Code
 
-1. Download from **code.visualstudio.com**
+1. Download from https://code.visualstudio.com/
 2. Install the **Python extension** (by Microsoft)
 
 
@@ -62,7 +63,7 @@ Open Terminal/Command Prompt and run:
 
 ```bash
 python --version
-# Should show: Python 3.11.x or higher
+# Should show: Python 3.13.x or higher
 ```
 ---
 
@@ -81,10 +82,10 @@ python --version
 
 **Benefits:**
 
-- ✅ No version conflicts
-- ✅ Clean, reproducible setups
-- ✅ Easy to share with others
-- ✅ Professional best practice
+✅ No version conflicts <br>
+✅ Clean, reproducible setups <br>
+✅ Easy to share with others <br>
+✅ Professional best practice <br>
 
 ---
 
@@ -109,7 +110,7 @@ python -m venv venv
 **Windows:**
 
 ```bash
-venv\Scripts\activate
+source venv\Scripts\activate
 ```
 
 **Mac/Linux:**
@@ -128,16 +129,16 @@ deactivate
 
 ---
 
-## Package Management with pip 📦
+## Package Management with pip (don't run the code yet) 📦
 
 ### Installing Packages
 
 ```bash
 # Install a single package
-pip install requests
+pip install pyjokes
 
 # Install multiple packages
-pip install requests beautifulsoup4 pandas
+pip install pyjokes deep-translator
 ```
 
 ### Managing Dependencies
@@ -150,103 +151,115 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 # Upgrade a package
-pip install --upgrade requests
+pip install --upgrade pyjokes
 ```
 
 ### Checking What's Installed
 
 ```bash
 pip list
-pip show requests  # Detailed info about specific package
+pip show pyjokes  # Detailed info about specific package
 ```
 
 ---
-
 ## Hands-On: Your First Python Script! 🎉
 
-Let's create a simple web API client:
+Let's create a simple Joke Generator App 🎭
 
-**Create `main.py`:**
+✅ Create a virtual environment (venv)<br>
+✅ Install a package (pip install)<br>
+✅ Use the package in a simple script<br>
+✅ Save dependencies to requirements.txt<br>
+✅ Share the project with others
+
+
+---
+## Joke Generator App 🎉
+
+**In the terminal run:**
+
+```bash
+
+pip install pyjokes # Install the package in your venv
+pip list   # list all packages installed
+pip show pyjokes  # Detailed info 
+
+```
+
+**Create `joke_app.py`:**
 
 ```python
-import requests
-import json
+import pyjokes
 
-def get_github_info():
-    """Fetch and display GitHub API information"""
-    print("🚀 Fetching data from GitHub API...")
-    
-    try:
-        response = requests.get("https://api.github.com")
-        
-        if response.status_code == 200:
-            print(f"✅ Success! Status code: {response.status_code}")
-            print(f"📊 Rate limit remaining: {response.headers.get('X-RateLimit-Remaining', 'Unknown')}")
-            
-            # Pretty print some API endpoints
-            data = response.json()
-            print("\n🔗 Available API endpoints:")
-            for key, url in list(data.items())[:5]:  # Show first 5
-                print(f"  • {key}: {url}")
-                
-        else:
-            print(f"❌ Request failed with status code: {response.status_code}")
-            
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Error occurred: {e}")
+# Here you have English jokes
+def tell_joke():
+    print("Here a funny joke for you: ")
+    print(pyjokes.get_joke())
 
 if __name__ == "__main__":
-    get_github_info()
-    print("\n🎉 Great job! You just made your first API call with Python!")
+    tell_joke()
+
 ```
 
 **Run it:**
 
 ```bash
-python main.py
+python joke_app.py
 ```
 
 ---
 
+## Joke Generator App 🎉
+
+Let's do a French translation
+
+** Refactor `joke_app.py`:**
+
+```python
+import pyjokes
+from deep_translator import GoogleTranslator
+   
+# Here you have Jokes in French
+    
+def translate_to_french(text):
+    translator = GoogleTranslator(source="en", target="fr")
+    translated = translator.translate(text)
+    return translated
+
+def tell_french_joke():
+    joke = pyjokes.get_joke()
+    french_joke = translate_to_french(joke)
+    print("Blague en français :")
+    print(french_joke)
+    
+    
+if __name__ == "__main__":
+    tell_french_joke()
+```
+
+**Run it:**
+
+```bash
+python name_of_your_file.py
+```
+
+---
+
+
+
 ## Project Structure 📁
 
-### Recommended File Organization
+### File Organization
 
 ```
 my-python-project/
 ├── venv/                 # Virtual environment (don't commit!)
-├── src/                  # Your source code
-│   └── main.py
+├── my_joke_app.py        # Your source code
 ├── requirements.txt      # Dependencies
-├── .gitignore           # Files to ignore in Git
-├── README.md            # Project documentation
-└── .env.example         # Environment variables template
+
 ```
 
-### Essential .gitignore Content
-
-```gitignore
-# Virtual Environment
-venv/
-env/
-.venv/
-
-# Python Cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Environment Variables
-.env
-
-# IDE Files
-.vscode/
-.idea/
-```
-
----
-
-## Best Practices Checklist ✅
+## Take aways ✅
 
 ### For Every New Project:
 
@@ -254,21 +267,15 @@ __pycache__/
 - [ ] Set up a virtual environment
 - [ ] Activate before installing packages
 - [ ] Create requirements.txt
-- [ ] Add .gitignore file
-- [ ] Write a clear README.md
 
 ### For Clean Code:
 
 - [ ] Use meaningful variable names
 - [ ] Add comments to explain complex logic
-- [ ] Follow PEP 8 style guidelines
-- [ ] Handle errors gracefully (try/except)
 
 ### For Collaboration:
 
 - [ ] Keep requirements.txt updated
-- [ ] Document how to run your project
-- [ ] Never commit your venv folder
 
 ---
 
@@ -285,13 +292,6 @@ __pycache__/
 - **Python.org Online Tutorial**: https://docs.python.org/3/tutorial/
 - **Codecademy Python Course**: https://www.codecademy.com/learn/learn-python-3
 - **freeCodeCamp**: https://www.freecodecamp.org/learn/scientific-computing-with-python/
-
-### VS Code Extensions
-
-- **Python** (Microsoft) - Essential!
-- **Python Docstring Generator** - Auto-generate documentation
-- **GitLens** - Enhanced Git capabilities
-- **Prettier** - Code formatting
 
 ---
 
@@ -312,7 +312,7 @@ __pycache__/
 - **Advanced Python workshops**
 - **Data Science track**
 - **Web development with Django/Flask**
-- **Career development sessions**
+
 
 **Scan the QR code to join our Discord community!** 📱
 
