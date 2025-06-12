@@ -21,16 +21,16 @@ Organizer: Marlene Marchena
 
 ## What We'll Master Today 🎯
 
-1. **Install Python & VS Code** - Your coding toolkit
-2. **Create virtual environments** - Keep your projects organized
-3. **Use pip for package management** - Add superpowers to your code
-4. **Work with requirements.txt** - Share your setup with others
-5. **Follow Python best practices** - Code like a professional
-6. **Write and run your first Python script** - Make something happen!
+1. Install Python & VS Code <br>
+2. Create a virtual environment (venv)<br>
+3. Install a package (pip install)<br>
+4. Write and run your first Python script<br>
+5. Save dependencies to requirements.txt<br>
+6. Share the project with others
 
 ---
 
-## Icebreaker Time! ❄️✨
+## But First Icebreaker Time! ❄️✨
 
 **Let's get to know each other:**
 
@@ -49,12 +49,12 @@ Organizer: Marlene Marchena
 1. Visit https://www.python.org/ → Downloads
 2. Choose **Python 3.13+** (latest stable version) <br>
 
-✅ **Important:** Check "Add Python to PATH" during installation
+**Important:** Check "Add Python to PATH" during installation
 
 ### Step 2: Install VS Code
 
 1. Download from https://code.visualstudio.com/
-2. Install the **Python extension** (by Microsoft)
+2. Install the **Python extension** 
 
 
 ### Step 3: Verify Installation
@@ -174,7 +174,7 @@ Let's create a simple Joke Generator App 🎭
 
 
 ---
-## Joke Generator App 🎉
+## Hands-On: Joke Generator App 🎉
 
 **In the terminal run:**
 
@@ -186,7 +186,7 @@ pip show pyjokes  # Detailed info
 
 ```
 
-**Create `joke_app.py`:**
+**Create `joke.py`:**
 
 ```python
 import pyjokes
@@ -204,22 +204,22 @@ if __name__ == "__main__":
 **Run it:**
 
 ```bash
-python joke_app.py
+python joke.py
 ```
 
 ---
 
-## Joke Generator App 🎉
+## Hands-On: Joke Generator App 🎉
 
 Let's do a French translation
 
-** Refactor `joke_app.py`:**
+** Refactor `joke.py`:**
 
 ```python
 import pyjokes
 from deep_translator import GoogleTranslator
    
-# Here you have Jokes in French
+# Here you have Jokes translate to French
     
 def translate_to_french(text):
     translator = GoogleTranslator(source="en", target="fr")
@@ -240,26 +240,54 @@ if __name__ == "__main__":
 **Run it:**
 
 ```bash
-python name_of_your_file.py
+python joke.py
 ```
 
 ---
 
 
 
-## Project Structure 📁
+## Project Structure Example 📁
 
 ### File Organization
 
 ```
 my-python-project/
 ├── venv/                 # Virtual environment (don't commit!)
-├── my_joke_app.py        # Your source code
+├── joke.py               # Your source code
 ├── requirements.txt      # Dependencies
 
 ```
 
-## Take aways ✅
+---
+
+
+## Share your project
+
+**Save Dependencies to `requirements.txt`:**
+
+```bash
+pip freeze > requirements.txt
+```
+(Now requirements.txt contains pyjokes==X.X.X.)
+
+
+If someone else wants to run your code or you want to run it in another machine then:
+
+- clone the repo
+
+- Create a venv
+
+- Run:
+```bash
+pip install -r requirements.txt
+python joke.py
+```
+
+
+---
+
+## Takeaways  ✅
 
 ### For Every New Project:
 
