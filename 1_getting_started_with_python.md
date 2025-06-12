@@ -42,20 +42,17 @@ Organizer: Marlene Marchena
 
 ---
 
-## Setting Up Your Python Environment 🛠️
+## Setting Up Your Environment 🛠️
 
 ### Step 1: Install Python
 
-1. Visit https://www.python.org/ → Downloads
+1. Visit https://www.python.org/ → Downloads 
 2. Choose **Python 3.13+** (latest stable version) <br>
-
-**Important:** Check "Add Python to PATH" during installation
 
 ### Step 2: Install VS Code
 
 1. Download from https://code.visualstudio.com/
 2. Install the **Python extension** 
-
 
 ### Step 3: Verify Installation
 
@@ -129,8 +126,9 @@ deactivate
 
 ---
 
-## Package Management with pip (don't run the code yet) 📦
+## Package Management with pip  📦
 
+** Don't run the code yet!**
 ### Installing Packages
 
 ```bash
@@ -356,10 +354,4 @@ Remember: Every expert was once a beginner. You're now part of an amazing commun
 
 ---
 
-
-*Made with 💜 by PyLadies Brussels*
-
-**Keep coding, keep learning, and most importantly - have fun!** 🐍✨
-
----
 
