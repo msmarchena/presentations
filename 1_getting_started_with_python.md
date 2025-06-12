@@ -59,7 +59,7 @@ Organizer: Marlene Marchena
 Open Terminal/Command Prompt and run:
 
 ```bash
-python --version
+> python --version
 # Should show: Python 3.13.x or higher
 ```
 ---
@@ -91,15 +91,15 @@ python --version
 ### Create a Project Folder
 
 ```bash
-mkdir my-python-project
-cd my-python-project
+> mkdir my-python-project
+> cd my-python-project
 ```
 
 ### Create Virtual Environment
 
 ```bash
 # Create virtual environment
-python -m venv venv
+> python -m venv venv
 ```
 
 ### Activate Your Environment
@@ -107,13 +107,13 @@ python -m venv venv
 **Windows:**
 
 ```bash
-source venv\Scripts\activate
+> source venv\Scripts\activate
 ```
 
 **Mac/Linux:**
 
 ```bash
-source venv/bin/activate
+> source venv/bin/activate
 ```
 
 **Success indicator:** Your terminal prompt will show `(venv)`
@@ -121,7 +121,7 @@ source venv/bin/activate
 ### When You're Done Working
 
 ```bash
-deactivate
+> deactivate
 ```
 
 ---
@@ -133,30 +133,30 @@ deactivate
 
 ```bash
 # Install a single package
-pip install pyjokes
+> pip install pyjokes
 
 # Install multiple packages
-pip install pyjokes deep-translator
+> pip install pyjokes deep-translator
 ```
 
 ### Managing Dependencies
 
 ```bash
 # Save current packages to requirements.txt
-pip freeze > requirements.txt
+> pip freeze > requirements.txt
 
 # Install from requirements.txt (on another machine/environment)
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 # Upgrade a package
-pip install --upgrade pyjokes
+> pip install --upgrade pyjokes
 ```
 
 ### Checking What's Installed
 
 ```bash
-pip list
-pip show pyjokes  # Detailed info about specific package
+> pip list
+> pip show pyjokes  # Detailed info about specific package
 ```
 
 ---
@@ -178,9 +178,9 @@ Let's create a simple Joke Generator App 🎭
 
 ```bash
 
-pip install pyjokes # Install the package in your venv
-pip list   # list all packages installed
-pip show pyjokes  # Detailed info 
+> pip install pyjokes # Install the package in your venv
+> pip list   # list all packages installed
+> pip show pyjokes  # Detailed info 
 
 ```
 
@@ -202,7 +202,7 @@ if __name__ == "__main__":
 **Run it:**
 
 ```bash
-python joke.py
+> python joke.py
 ```
 
 ---
@@ -238,7 +238,7 @@ if __name__ == "__main__":
 **Run it:**
 
 ```bash
-python joke.py
+> python joke.py
 ```
 
 ---
@@ -265,21 +265,21 @@ my-python-project/
 **Save Dependencies to `requirements.txt`:**
 
 ```bash
-pip freeze > requirements.txt
+> pip freeze > requirements.txt
 ```
 (Now requirements.txt contains pyjokes==X.X.X.)
 
 
 If someone else wants to run your code or you want to run it in another machine then:
 
-- clone the repo
+- copy/send the `requirements.txt` and `joke.py`
 
 - Create a venv
 
 - Run:
 ```bash
-pip install -r requirements.txt
-python joke.py
+> pip install -r requirements.txt
+> python joke.py
 ```
 
 
@@ -329,18 +329,14 @@ python joke.py
 
 🔗 **Stay Connected:**
 
-- Discord community for ongoing support
 - GitHub : https://github.com/pyladiesbrussels
 - PyLadies Brussels: https://www.meetup.com/pyladies-brussels/Monthly
 
 ### What's Next?
 
-- **Advanced Python workshops**
+- ** More Beginner/Advanced workshops**
 - **Data Science track**
 - **Web development with Django/Flask**
-
-
-**Scan the QR code to join our Discord community!** 📱
 
 ---
 
