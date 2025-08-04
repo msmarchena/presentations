@@ -107,7 +107,7 @@ Open Terminal/Command Prompt and run:
 **Windows:**
 
 ```bash
-> source venv\Scripts\activate
+> source venv/Scripts/activate
 ```
 
 **Mac/Linux:**
