@@ -1,0 +1,63 @@
+# Defining some variable
+BOARD_SIZE = 5
+MOUSE = "M"
+CHEESE = "C"
+EMPTY = "."
+
+mouse_row, mouse_col = 0, 0
+cheese_row, cheese_col = 4, 4
+moves = 0
+
+print("=== MOUSE vs CHEESE ===")
+print("Controls: w=up, s=down, a=left, d=right")
+print("Goal: Reach the cheese!")
+
+while True:
+    board = []
+    for row in range(BOARD_SIZE):
+        current_row=[]
+        for col in range(BOARD_SIZE):
+            current_row.append(EMPTY)
+        board.append(current_row)    
+
+    # --- Place mouse and cheese on the board ---
+    # board[row][col] → row = vertical, col = horizontal
+    board[mouse_row][mouse_col] = MOUSE  
+    board[cheese_row][cheese_col] = CHEESE  
+        
+    # --- Print the board ---
+    print("\n" + "=" * (BOARD_SIZE * 2 + 1))    
+    for row in board:
+        print("|" + " ".join(row) + "|")    
+    print("=" * (BOARD_SIZE * 2 + 1))
+    print(f"Moves: {moves}")     
+
+        # --- Check win condition ---
+    if mouse_row == cheese_row and mouse_col == cheese_col:
+        print(f"\n🎉 YOU WIN! Total moves: {moves}")
+        break
+        
+    # --- Player input ---
+    move = input("Your move (u/d/l/r): ").lower()    
+
+    # --- Update position ---
+    new_row, new_col = mouse_row, mouse_col
+
+    if move == "u":      # up
+        new_row -= 1
+    elif move == "d":    # down
+        new_row += 1
+    elif move == "l":    # left
+        new_col -= 1
+    elif move == "r":    # right
+        new_col += 1
+    else:
+        print("Invalid move! Use u/d/l/r.")
+        continue
+        
+    # --- Check boundaries ---
+    if 0 <= new_row < BOARD_SIZE and 0 <= new_col < BOARD_SIZE:
+        mouse_row, mouse_col = new_row, new_col
+        moves += 1
+    else:
+        print("You hit the wall of the board!")
